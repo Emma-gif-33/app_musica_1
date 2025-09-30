@@ -30,18 +30,7 @@
         height: 100%;
         grid-template-columns: 75% 25%;
         align-items: left;
-
     }
-
-    #playlist{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: left;
-        align-items: flex-start;
-    }
-
-
 
     #song-details {
         display: flex;
@@ -49,6 +38,28 @@
         flex-wrap:wrap;
         justify-content:left;
         align-items:flex-start;
+    }
+
+    .song-img{
+        
+    }
+
+    #playlist{
+        height: 100%;
+        overflow: auto;
+
+    }
+
+    .song-card{
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+
+    }
+
+    .song-image-playlist{
+        width: 30%;
+        height: 30%;
     }
 }
 
