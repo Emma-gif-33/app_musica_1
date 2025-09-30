@@ -5,7 +5,7 @@ let media = document.getElementById("media");
 let play_btn = document.getElementById("play");
 const song_img = document.getElementById("song-img");
 const lastest = document.getElementById("lastest");
-const forward = document.getElementById("forward")
+const forward = document.getElementById("forward");
 
 const songs = [
         {
@@ -32,7 +32,7 @@ const last = [];
 
 const playlist = createPlaylist(songs.length);
 
-let playingNow;
+const player = playerObj;
 
 window.addEventListener('DOMContentLoaded', () => {
     playingNow = playlist.pop()
